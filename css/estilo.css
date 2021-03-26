@@ -1,7 +1,8 @@
 body{
 	background: url(../img/capa2.png),
 	            url(../img/ruido3.png),
-	            linear-gradient(80deg,#3f0646,#070108); 
+	            linear-gradient(80deg,#3f0646,#070108);
+
 }
 
 body,html,#home{
@@ -46,4 +47,18 @@ footer{
 @font-face{
 	font-family: adf;
 	src: url(../font/Rhieknuza.woff);
+}
+
+.nav-link:hover{
+	background: black;
+	color: white;
+	border-radius: 5px;
+}
+
+.nav-link{
+	color: white
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(228 192 17 / 50%);
 }
