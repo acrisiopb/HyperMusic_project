@@ -1,0 +1,49 @@
+body{
+	background: url(../img/capa2.png),
+	            url(../img/ruido3.png),
+	            linear-gradient(80deg,#3f0646,#070108); 
+}
+
+body,html,#home{
+	height: 100%;
+}
+
+
+
+ ol.aff a{
+	text-decoration: none;
+	color:black;
+}
+nav.porra{
+    background: rgba(0,0,0,0.6);
+}
+
+
+#album1{
+	background: white;
+}
+
+.caxote{
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+footer{
+	padding: 50px 0px 20px 0px;
+	background: black;
+	position: relative;
+	color: white;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	width: 18px;
+}
+
+.list-group-item:hover{
+	background:#d3d3d3;
+}
+
+@font-face{
+	font-family: adf;
+	src: url(../font/Hargita.woff);
+}
