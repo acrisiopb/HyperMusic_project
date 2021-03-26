@@ -62,3 +62,52 @@ footer{
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(228 192 17 / 50%);
 }
+
+
+.video{
+	width: 500px;
+	height: 315px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .video{
+     	width:290px;
+     	height:260px;
+     }
+     }
+
+
+@media (min-height: 579px) and (max-width:1201px ){
+	.video{
+     	width:500px;
+     	height:315px;
+     }
+}
+
+
+@media (min-width: 768px) { 
+     .video{
+     	width:290px;
+     	height:260px;
+     }
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    .video{
+     	width:426px;
+     	height:315px;
+     }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.video{
+     	width:500px;
+     	height:315px;
+     }
+	
+ }
+
